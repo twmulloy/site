@@ -1,16 +1,34 @@
 {
-  "name": "site",
-  "version": "0.1.0",
-  "private": true,
+  "author": "Thomas Mulloy",
+  "bugs": {
+    "url": "https://github.com/twmulloy/site/issues"
+  },
   "dependencies": {
+    "express": "^4.15.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.11"
+    "react-scripts": "^1.0.11"
+  },
+  "description": "",
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^1.4.16"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "homepage": "https://github.com/twmulloy/site#readme",
+  "main": "index.js",
+  "name": "site",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twmulloy/site.git"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "start": "node app.js",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "version": "0.1.0"
 }
