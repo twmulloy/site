@@ -4,18 +4,12 @@
     "url": "https://github.com/twmulloy/site/issues"
   },
   "dependencies": {
-    "express": "^4.15.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "^1.0.11"
   },
   "description": "",
-  "devDependencies": {
-    "@google-cloud/nodejs-repo-tools": "^1.4.16"
-  },
-  "engines": {
-    "node": ">=4.3.2"
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/twmulloy/site#readme",
   "main": "index.js",
   "name": "site",
@@ -27,7 +21,7 @@
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "start": "node app.js",
+    "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   },
   "version": "0.1.0"
